@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .eat-healthy-content-wrapper {
@@ -34,5 +35,52 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 25px;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+/*first blog end*/
+
+
+.about-wrapper {
+    background-image: url("images/shapes/7.png");
+}
+
+.about-content-wrapper {
+    display: flex;
+    padding-top: 50px;
+}
+
+.img-section {
+    flex: 0 0 50%;
+}
+
+.img-section-w {
+    text-align: center;
+}
+
+.img-section-w img {
+    width: 250px;
+}
+
+.pera-section {
+    flex: 0 0 50%;
+}
+
+.pera-section h1 {
+    font-size: 40px;
+    color: rgb(65, 65, 65);
+}
+
+.pera-section p {
+    padding-right: 200px;
+    margin-bottom: 50px;
+    color: rgb(65, 63, 63);
+}
+
+.contact-btn-w a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
     background-image: linear-gradient(to right, tomato, orange);
 }
