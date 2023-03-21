@@ -1,0 +1,24 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.eat-healthy-content-wrapper {
+    display: flex;
+}
+
+.orange-color {
+    color: orange;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 20px;
+
+}
+
+
+
+
+.right-img-wrapper img {
+    width: 100%;
+}
