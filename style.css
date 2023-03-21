@@ -6,19 +6,33 @@ body {
     display: flex;
 }
 
+.left-pera {
+    padding: 120px 20px;
+}
+
 .orange-color {
     color: orange;
 }
 
-h2 {
-    font-size: 40px;
-    line-height: 20px;
-
+.left-pera h2 {
+    font-size: 50px;
+    line-height: 40px;
+    color: rgb(61, 61, 61);
 }
 
-
-
+.left-pera p {
+    color: rgb(68, 67, 67);
+    margin-bottom: 40px;
+}
 
 .right-img-wrapper img {
     width: 100%;
+}
+
+.order-food-btn-w a {
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, tomato, orange);
 }
